@@ -8,7 +8,7 @@ class Engine {
   ~Engine();
 
   void Initialize();
-  void Rut n();
+  void Run();
   void DeInitialize();
 
  private:
