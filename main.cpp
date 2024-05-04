@@ -1,9 +1,7 @@
 #include "src/Engine.h"
 
 int main() {
-    Engine *engine = new Engine();
-    engine->Initialize();
+    auto *engine = new Engine();
     engine->Run();
-    engine->DeInitialize();
     return 0;
 }

@@ -2,15 +2,9 @@
 #include <GLFW/glfw3.h>
 
 class Engine {
+public:
+    void Run();
 
- public:
-  Engine();
-  ~Engine();
-
-  void Initialize();
-  void Run();
-  void DeInitialize();
-
- private:
-  GLFWwindow *window;
+private:
+    GLFWwindow *window;
 };
