@@ -3,8 +3,6 @@ project(glfw-template)
 find_package( OpenGL REQUIRED )
 set(CMAKE_CXX_STANDARD 17)
 
-find_package(Vulkan REQUIRED)
-
 file(GLOB SOURCES
         "./*.cpp"
         "src/*.cpp"
@@ -27,4 +25,3 @@ target_compile_options(glfw-template PRIVATE -Wall)
 
 add_subdirectory(dependencies)
 target_link_libraries(glfw-template PRIVATE glfw glad)
-target_link_libraries(glfw-template PRIVATE Vulkan::Vulkan)

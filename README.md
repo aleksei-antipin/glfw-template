@@ -7,7 +7,6 @@ This is a template project for kickstarting your C++ graphical applications with
 * OpenGL compatible graphics driver
 * C++17 compiler
 
-## Cloning 
-
-Use ```git clone -recurse-submodules``` to clone this repository.
+## Cloning
+Use ```git clone --recurse-submodules``` to clone this repository.
 
